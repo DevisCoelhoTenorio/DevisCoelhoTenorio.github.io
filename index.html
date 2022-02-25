@@ -1,44 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfólio Web de Dêvis Tenório</title>
-    </head>
-    <body>
-        <h1 id="Nome">Dêvis Coelho Tenório<br></h1>
-        <a href="#Menu">Ir para o Menu</a>
-        <br>
-        <hr>
-        <img id="Foto" src="Devis foto.jpeg" alt="Foto de Dêvis" width="300px">
-        <br><br><br><br><br><br>
-        <hr>
-        <h2 ID="Sobremim">Sobre Mim:</h2>
-        <p><strong>Meu nome é Dêvis, tenho 30 anos , sou brasileiro nascido em Maceió-AL</strong></p>
-        <br><br><br><br><br><br>
-        <hr>
-        <h2 id="Habilidades">Minhas Habilidades:</h2>
-        <p><ol>
-            <li><em>Capacidade de negociação</em></li>
-            <li><em>Flexibilidade</em></li>
-            <li><strong>Resiliência</strong></li>
-            <li><em>Pensamento Crítico</em></li>
-        </ol>
-        <br>
-        <h3>Link recomendado <br>
-            <a href="https://www.youtube.com/" target="_blanck">Youtube</a>
-        </h3>
-        
-        <br><br><br><br>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p><strong>Menu de Opções</strong>
-        <ol id="Menu">
-            <li><a href="#Foto">Voltar para minha Foto</a></li>
-            <li><a href="#Nome">Voltar para meu Nome</a></li>
-            <li><a href="#Sobremim">Voltar "Sobre mim"</a></li>
-            <li><a href="#Habilidades">Voltar minhas Habilidades</a></li>
-        </ol>
-        </p>
-        <p>FIM !</p>
-    </body>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tangerine&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Portfólio Web de Dêvis Tenório</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Press Start 2P';
+            font-size: 30px;
+            background-color: #F0B71E;
+            box-shadow: 10px 5px 5px #F5871B;
+            padding: 30px;
+            border-radius: 10%;
+        }
+        body{
+            background-color:#429CED;
+        }
+        #Foto{
+            border-radius: 100%;
+            box-shadow: 10px 5px 5px #F5871B;
+            }
+        div{
+            text-align: center;
+            background-color: #3F6FE0;
+            padding: 50px;
+            border-radius: 20%;
+        }
+        h2{
+            text-align: center;
+            font-family:'Press Start 2P';
+            background-color: #F0B71E;
+            box-shadow: 10px 5px 5px #F5871B;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        p{
+            text-align: center;
+        }
+        .icon{
+            border-radius: 100%;
+
+        }
+        .hab{
+            text-align: center;
+            list-style:none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="Nome">Dêvis Coelho Tenório</h1>
+    <!-- <a href="#Menu">Ir para o Menu</a> -->
+    <div>
+    <img id="Foto" src="Devis foto.jpeg" alt="Foto de Dêvis" width="300px">
+    </div>
+    <hr>
+    <h2 ID="Sobremim">Sobre Mim:</h2>
+    <ul Class="hab">
+        <li>Tenho 30 anos. </li>
+        <li>Sou brasileiro. </li>
+        <li>Nasci em Maceió-AL.</li>
+        <li>Sou Estudante de Desenvolvimento Web na Trybe & Advogado.</li>
+        <li>Tenho duas filhas lindas, Eliza e Sofia.</li>
+    </ul>
+    <h2 id="Habilidades">Minhas Habilidades:</h2>
+    <p>
+    <ol Class="hab">
+        <li>Capacidade de negociação</li>
+        <li>Flexibilidade</li>
+        <li><strong>Resiliência</strong></li>
+        <li>Pensamento Crítico</li>
+        <li><strong>Facilidade com Informática</strong></li>
+    </ol>
+    <h2 id="Habilidades">Meus Contatos:</h2>
+    <ul class="hab">
+        <li><img class= "icon" src="whatsapp.png" alt="whatsapp" width="30px"> <a href="https://wa.me/558287511123" target="_blanck">WhatsAPP</a></li>
+        <li><img class= "icon" src="linkedin.png" alt="linkedin" width="30px"> <a href="https://www.linkedin.com/in/d%C3%AAvis-coelho-ten%C3%B3rio-3a5a88231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bn4%2BNKAl0SIuWxgxHkpCw6A%3D%3D" target="_blanck">Linkedin</a></li>
+        <li><img class= "icon" src="github.png" alt="github" width="30px"> <a href="https://github.com/DevisCoelhoTenorio" target="_blanck">Portfólio GitHub</a></li>
+        
+    </ul>
+    <h2>Links recomendados por mim! </h2>
+    <ul class="hab">
+        <li><a href="https://www.youtube.com/" target="_blanck">Youtube</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blanck">Adobe Color</a></li>
+        <li><a href="https://fonts.google.com/" target="_blanck">Google Fonts</a></li>
+        <li><a href="https://pt.stackoverflow.com/" target="_blanck">StackOverFlow</a></li>
+    </ul>
+    <h3>Menu de Opções<h3>
+    <ol id="Menu">
+        <li><a href="#Foto">Voltar para minha Foto</a></li>
+        <li><a href="#Nome">Voltar para meu Nome</a></li>
+        <li><a href="#Sobremim">Voltar "Sobre mim"</a></li>
+        <li><a href="#Habilidades">Voltar minhas Habilidades</a></li>
+    </ol>
+    </p>
+    <p>FIM !</p>
+</body>
+
 </html>
